@@ -1,10 +1,152 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Day 2</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flexbox Fun</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="formatting.css" />
   </head>
-  <body>
 
+  <body>
+    <!-- Spread menu -->
+
+    <!-- 1st Section  - for "Basic Nav" -->
+    <section>
+      <!-- Plain title -->
+      <h1>Basic Nav</h1>
+
+      <!-- container Parent-->
+      <div class="nav">
+        <!-- item 1 -->
+        <div>Home</div>
+        <!-- item 2 -->
+        <div>Store</div>
+        <!-- item 3 -->
+        <div>About Us</div>
+        <!-- item 4 -->
+        <div>Contact</div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Clustered Nav</h1>
+      <!-- Container  -->
+      <div class="clusterNav">
+        <!-- Item 1 child -->
+        <div>Company<br />Name</div>
+        <!-- Item 2 child & itself a container -->
+        <div class="buttonCluster">
+          <!-- Item 2.1 -->
+          <div>Store</div>
+          <!-- item 2.2 -->
+          <div>About Us</div>
+          <!-- item 2.3 -->
+          <div>Contact</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Basic Card</h1>
+      <!-- container -->
+      <div class="card">
+        <!-- item 1 not a div -->
+        <h3>A Card</h3>
+        <!-- iterm 2 not a div -->
+        <p>
+          Scratch leg; meow for can opener to feed me eat and than sleep on your
+          face or sniff sniff. Chew iPad power cord meow meow you are my owner
+          so here is a dead rat yet sit on human or i will be pet i will be pet
+          and then i will hiss.
+        </p>
+        <!-- item 3 -->
+        <button>Learn More</button>
+      </div>
+    </section>
+
+    <section>
+      <h1>Row of Cards</h1>
+      <!-- container -->
+      <div class="cardRow">
+        <!-- Item 1 & container -->
+        <div class="clusterCard">
+          <!-- Item 1.1 & container -->
+          <div class="contentCluster">
+            <!-- Iterm 1.1.1 -->
+            <h3>Individual</h3>
+            <!-- iterm 1.1.2 -->
+            <p>ad free music <br>on demand music <br>Play on any device</p>
+          </div>
+          <!-- Iterm 1.2 -->
+          <button>pay now: $9.99/month</button>
+        </div>
+        <!-- Iterm 2 & container -->
+        <div class="clusterCard">
+          <!-- Item 2.1 & container -->
+          <div class="contentCluster">
+            <!-- Item 2.1.1 -->
+            <h3>Family</h3>
+            <!-- Item 2.1.2 -->
+            <p>
+              For up to 6 people, with restrictions for young ones
+            </p>
+          </div>
+          <!-- Item 2.2 -->
+          <button>Pay now: $15.99/month</button>
+        </div>
+        <!-- Item 3 -->
+        <div class="clusterCard">
+          <!-- Item 3.1 & container -->
+          <div class="contentCluster">
+            <!-- Item 3.1.1 -->
+            <h3>Student</h3>
+            <!-- Item 3.1.2 -->
+            <p>
+            Only applicable for University students same benefits as idnividual but with HULU
+            </p>
+          </div>
+          <!-- Item 3.2 -->
+          <button>Pay now: $4.99/month</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Gallery</h1>
+      <div class="gallery">
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+        <div><h3>Item</h3></div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Complex Gallery</h1>
+      <div class="complexGallery">
+        <div><h3>Item1</h3></div>
+        <div><h3>Item2</h3></div>
+        <div class="wide"><h3>Item3</h3></div>
+        <div><h3>Item4</h3></div>
+        <div class="tall"><h3>Item5</h3></div>
+        <div><h3>Item6</h3></div>
+        <div class="huge"><h3>Item7</h3></div>
+        <div><h3>Item8</h3></div>
+        <div><h3>Item9</h3></div>
+        <div><h3>Item10</h3></div>
+        <div><h3>Item11</h3></div>
+        <div><h3>Item12</h3></div>
+      </div>
+    </section>
   </body>
 </html>
